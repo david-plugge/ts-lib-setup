@@ -9,6 +9,7 @@
 		"moduleDetection": "force",
 		"resolveJsonModule": true,
 		"noUncheckedIndexedAccess": true,
+		"forceConsistentCasingInFileNames": true,
 		"skipLibCheck": true
 	},
 	"include": ["src"],

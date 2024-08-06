@@ -4,11 +4,17 @@
 	"description": "",
 	"author": "David Plugge",
 	"license": "MIT",
+	"homepage": "https://github.com/<author>/<package-name>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/<author>/<package-name>"
+	},
+	"bugs": "https://github.com/<author>/<package-name>/issues",
 	"keywords": [],
 	"type": "module",
-	"main": "dist/index.d.ts",
-	"module": "dist/index.d.ts",
-	"types": "dist/index.js",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"modules": "dist/index.js",
 	"scripts": {
 		"build": "rm -rf dist/* && tsc --project tsconfig.build.json",
 		"format": "prettier --write .",
@@ -28,6 +34,7 @@
 			]
 		}
 	},
+	"packageManager": "pnpm@9.6.0",
 	"devDependencies": {
 		"@eslint/js": "^9.8.0",
 		"eslint": "^9.8.0",

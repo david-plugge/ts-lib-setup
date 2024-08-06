@@ -1,6 +1,6 @@
 import js from '@eslint/js';
-import ts from 'typescript-eslint';
 import prettier from 'eslint-config-prettier';
+import ts from 'typescript-eslint';
 
 export default ts.config(
 	js.configs.recommended,
@@ -19,7 +19,6 @@ export default ts.config(
 	},
 	{
 		rules: {
-			'@typescript-eslint/consistent-type-exports': 'error',
 			'@typescript-eslint/consistent-type-imports': 'error',
 		},
 	},
